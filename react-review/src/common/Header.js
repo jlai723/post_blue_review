@@ -4,11 +4,10 @@ const HeaderBox = styled.section`
 height: 80px;
 width: 100%;
 background-color: blue;
-padding: 8px;
 `
 const HeaderTitle = styled.h1`
 color: white;
-margin-bottom: 20px;
+margin-top: 0px;
 padding: 20px;
 text-align: center;
 `

@@ -1,7 +1,11 @@
+// System imports
+
+// Package imports
 import styled from 'styled-components';
 import './App.css';
-
+// Our code imports
 import { Header, Footer } from './common';
+import { Search } from './search';
 
 function App() {
   const Body = styled.div`
@@ -10,7 +14,7 @@ function App() {
   return (
     <Body>
       <Header display="Hello" />
-      "Test"
+      <Search />
       <Footer display="Footer" />
     </Body>
   );
